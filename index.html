@@ -105,7 +105,21 @@
     }
     .cta button:active {
       background: rgba(255,255,255,.35);
-    }
+   
+      .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .separator {
+    width: 1px;
+    height: 40px;
+    margin: 0 20px;
+    ckground-color: rgba(255, 255, 255, 0.4);
+    
+
+
+
   </style>
 </head>
 <body>
@@ -115,7 +129,13 @@
     <p>We're building GeoAI to de-risk agricultural financing.</p>
     <hr>
     <div class="backed">Backed by</div>
-    <img class="logo" src="Carbon13_logo_reverse.png" alt="Carbon13 logo">
+    <div class="logos">
+    <img class="logo" src="Carbon13_logo_reverse.png" alt="carbon13 logo">
+    <div class="separator"></div>
+    <img class="logo" src="mathworks_wordmark_trans.png" alt="MathWorks logo">
+  </div>
+
+    
     <div class="cta">
       <input type="email" placeholder="Your email address" autocomplete="email" required>
       <button>Notify me</button>
